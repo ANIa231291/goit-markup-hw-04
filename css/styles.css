@@ -164,6 +164,10 @@ img {
 .menu-item:focus {
   color: #404bbf;
 }
+.menu-item-erst {
+  color: #404bbf;
+}
+
 .main-link {
   display: block;
   font-weight: 500;
@@ -195,6 +199,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-link-adress:hover,
@@ -206,7 +211,6 @@ img {
   color: var(--SLATE, #434455);
   font-size: 16px;
   letter-spacing: 0.02em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*========================== ADRES ===============================*/
 
@@ -214,7 +218,6 @@ img {
 .container-first {
   height: 600px;
   flex-shrink: 0;
-
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -332,7 +335,6 @@ img {
 }
 .benefits-social-icon {
   display: flex;
-  background-color: #404bbf;
 }
 
 .three-title {
