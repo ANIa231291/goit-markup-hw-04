@@ -336,6 +336,13 @@ img {
 .benefits-social-icon {
   display: flex;
 }
+/* .benefits-link-icon {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+} */
 
 .three-title {
   color: var(--NAVY-BLUE, #2e2f42);
