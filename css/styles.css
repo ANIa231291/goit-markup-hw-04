@@ -552,6 +552,10 @@ img {
   height: 312px;
   flex-shrink: 0;
 }
+.general-container {
+  display: flex;
+  align-items: baseline;
+}
 
 .link-basement {
   color: var(--IRIS, #4d5ae5);
@@ -591,7 +595,7 @@ img {
 
 .container-endee {
   height: 156px;
-  flex-shrink: 0;
+  margin-right: 120px;
 }
 
 .container-footer {
