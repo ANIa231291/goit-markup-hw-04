@@ -159,7 +159,7 @@ img {
   line-height: 1.4;
   letter-spacing: 0.02em;
 }
-.menu-item:hover {
+/* .menu-item:hover {
   color: #404bbf;
 }
 .menu-item:focus {
@@ -167,7 +167,7 @@ img {
 }
 .menu-item-erst {
   color: #404bbf;
-}
+} */
 
 .main-link {
   display: block;
@@ -512,7 +512,7 @@ img {
 }
 
 .menu-list-stylish {
-  box-shadow: зі значенням 0px 1px 6px rgba(46, 47, 66, 0.08),
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .menu-list-stylish:hover {
@@ -531,6 +531,11 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transform: translateY(0%);
+}
+
+.container-img {
+  position: relative;
+  overflow: hidden;
 }
 .foto-google {
   flex-shrink: 0;
@@ -558,6 +563,7 @@ img {
   background: var(--IRIS, #4d5ae5);
   width: 360px;
   height: 300px;
+  height: 100%;
   top: 0;
   left: 0;
   padding: 40px 32px 164px;
